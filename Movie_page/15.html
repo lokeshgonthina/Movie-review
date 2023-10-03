@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/annabelle.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Annabelle</h1>
+                    <p><span class="label">Release Year:</span> 2014</p>
+                    
+                    <p><span class="label">Genre:</span>Horror, Thriller</p>
+                    <p><span class="label">Language:</span>English</p>
+                    <p><span class="label">Director:</span> John R. Leonetti</p>
+                    <p><span class="label">Writer:</span>Gary Dauberman</p>
+                    <p><span class="label">Cast:</span>Ward Horton, Annabelle Wallis</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/paFgQNPGlsg?si=VMnGk89W14H3lHJO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>A couple begins to experience terrifying supernatural occurrences involving a vintage doll shortly after their home is invaded by satanic cultists.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 8.5/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 60%</li>
+                    <li><span class="label">Facebook:</span> 8.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"Re-watched this one recently and now I remember why it didn't really leave an impression like it's sequels. as the first of the trilogy it had the burden of building the characters and world up, which it failed to do. none of the characters felt fleshed out, leaving the viewer to not really care what happens to any of them. for most of the film you feel as if you're watching a slice of life film instead of a horror one. it finally starts to pickup halfway through the film although the ending doesn't really feel earned and the conflict happens and dies out too quickly as if it remembered it had to happen. the second film did a way better job at being a spin-off film for this important entity of The Conjuring universe."</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Much anticipated movie of 2019. The movie gives you a real mass entertainer having some good content. The main positive part of the film is that it is directed by a fan boy. That's why he has used mohanlal in the way the fans wanted to see. The direction visuals making acting all makes you feel excellent. The real don esthappan is on an action 😘."</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>"There were only two, count em', two well constructed and (more importantly) scary sequences throughout this entire HORROR MOVIE (the home invasion part and the elevator bit). If that fact alone is enough to get one person not to watch "Annabelle", then I've done my job as a critic."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

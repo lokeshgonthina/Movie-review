@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/php.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Pushpa: The Rise</h1>
+                    <p><span class="label">Release Year:</span> 2021</p>
+                    
+                    <p><span class="label">Genre:</span>Comedy, Action, Drama</p>
+                    <p><span class="label">Language:</span>Telugu</p>
+                    <p><span class="label">Director:</span> Sukumar</p>
+                    <p><span class="label">Writer:</span>Sukumar, Srikanth Vissa</p>
+                    <p><span class="label">Cast:</span>Allu Arjun, Rashmika Mandanna, Fahd Fasil</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vD7pncDBf70?si=H8pASQg9EKaa7of3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>A labourer rises through the ranks of a red sandal smuggling syndicate, making some powerful enemies in the process.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 7.6/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 81%</li>
+                    <li><span class="label">Facebook:</span> 7.9/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"With Pushpa: The Rise, Sukumar ventures into unchartered territory by making a rustic masala film filled with punch dialogues, characters that speak in a Chittoor dialect and a story that’s rooted deep in the region it’s set in. And seeing as how expectations were sky-high after Rangasthalam, what he delivers turns out to be a mixed bag that's over-long, falters at times and delivers what it promises at others."</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Awesome Movie, Pushparaj's Character Is Extraordinary 🔥🔥 And One Man Show Watch With 0 Expectations And Enjoy The Movie As A Fan Of Allu Arjun 🔥🔥 Attitude Of Pushparaj Is At Peaks First The Movie Fit Some Negative Reviews But Now It's Purely A Mass Treat For Allu Arjun Fans..🔥🔥🔥"</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>"This movie is purely for the mass audience. The duration of this is so long that it made me feel bored. Story and acting is good and the locations are beautiful. It's a decent movie but not worthy of 9&10 star rating."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

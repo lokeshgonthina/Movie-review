@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/swm.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Swathi Muthyam</h1>
+                    <p><span class="label">Release Year:</span> 2022</p>
+                    
+                    <p><span class="label">Genre:</span>Comedy,Drama,Romance</p>
+                    <p><span class="label">Language:</span>Telugu</p>
+                    <p><span class="label">Director:</span>Lakshman K Krishna</p>
+                    <p><span class="label">Writer:</span>Lakshman K Krishna</p>
+                    <p><span class="label">Cast:</span>Bellamkonda Ganesh Babu,Varsha Bollamma</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mPXDlOR36u8?si=5-ebTcgZiPovcqnr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>A young man, Bala Murali Krishna works as a government employee. He is innocent and pure at heart. His family starts searching a bride for him. One of those matches is Bhagyalakshmi aka Bhagi (Varsha). They meet in a coffee shop. She tells that she needs some time to decide about their marriage. They decided to meet frequently to better understand each other. Soon, they fall in love and Bhagi agrees to marry Bala.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 6.6/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 40%</li>
+                    <li><span class="label">Facebook:</span> 5.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"Swathi Muthyam featuring Bellamkonda Ganesh and Varsha Bollamma in the lead relies heavily on its situational humour but fails to engage midway because of its thin plot. Give it a try for its humour
+                        <br/>Scripted by Lakshman K Krishna, that much must be expected. However, for most parts"</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"This film understands the psychological and behaviour of middle-aged men displaying a sense of entitlement and anger more than unsuspecting youngsters caught in a bind."</p>
+                    <h3></h3>
+                    <p>"The film starts on a simple note and the twist that is introduced right before the pre-interval point is unexpected and has been neatly executed. The scenes look realistic and how the twist effects the wedding has been introduced in a fun yet convincing manner."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

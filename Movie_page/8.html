@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/jailer.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Jailer</h1>
+                    <p><span class="label">Release Year:</span> 2023</p>
+                    
+                    <p><span class="label">Genre:</span>Action, Crime, Comedy, Drama</p>
+                    <p><span class="label">Language:</span>Tamil</p>
+                    <p><span class="label">Director:</span>Nelson Dileep Kumar</p>
+                    <p><span class="label">Writer:</span>Nelson Dilip Kumar</p>
+                    <p><span class="label">Cast:</span>Rajinikanth, Mohanlal, Shivaraj Kumar</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xenOE1Tma0A?si=wlrG2hKHmEB525gt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>A retired jailer goes on a manhunt to find his son's killers. But the road leads him to a familiar, albeit a bit darker place. Can he emerge from this complex situation successfully?</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 8.1/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 70%</li>
+                    <li><span class="label">Facebook:</span> 9.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"The 2-hour-40-minute-long film takes time to establish itself. It takes over 40 minutes to pick up pace. Unlike every Rajnikanth movie, which thrives on a mass introduction scene, this one doesn’t give that cathartic experience. This is where it becomes a Nelson movie. But, the interval block and the mass scenes in the second half make up for it. Director Nelson, whose last big screen outing was Beast, is back with his signature style of filmmaking - packed with subtle, dark comedy in the first half. In fact, it is Yogi Babu and Rajinikanth’s fun banter that saves the first half. Second half takes off well with several mass scenes, especially when the story goes back in time to show a glimpse of Muthuvel’s past, but quickly loses steam and ends up leading towards a dragged, albeit a bit boring and a disappointing climax."</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Nelson, you've truly exceeded expectations with your latest film, "Jailer"! This movie takes a fresh approach to the thriller genre, blending it seamlessly with your characteristic humor that will leave the audience in stitches. It's an exhilarating dark comedy rollercoaster that keeps you hooked throughout.
+
+                        Right from the start, the film had me intrigued. It began with poignant moments centered around a grandfather, leading to the tragic loss of a son, and the subsequent pursuit of revenge. Amidst the intense drama, you skillfully interwove humor through the talented performances of your lead actors, ensuring a captivating experience."</p>
+                    <h3>The Hindu</h3>
+                    <p>"Though far from perfect, the towering presence of Rajinikanth — along with Nelson’s fortified writing, unique sense of humour and fan service — make ‘Jailer’ a commendable comeback for both the actor and filmmaker"</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

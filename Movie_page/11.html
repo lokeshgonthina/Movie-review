@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/hwe.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Halloween Ends</h1>
+                    <p><span class="label">Release Year:</span> 2022</p>
+                    
+                    <p><span class="label">Genre:</span>Horror</p>
+                    <p><span class="label">Language:</span>English</p>
+                    <p><span class="label">Director:</span>David Gordon Green</p>
+                    <p><span class="label">Writer:</span>John Carpenter, Debra Hill</p>
+                    <p><span class="label">Cast:</span>Jamie Lee Curtis, Andi Matichak, James Jude Courtney</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/i_mAWKyfj6c?si=I5n0FgcQfHCKvyU-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>The saga of Michael Myers and Laurie Strode comes to a spine-chilling climax in the final installment of this trilogy.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 8.5/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 70%</li>
+                    <li><span class="label">Facebook:</span> 6.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"Yeah this movie proves why this should NEVER have been a trilogy in the first place... Kills was a letdown and this was the final nail in the coffin!
+
+                        This movie introduces an entirely new storyline and character, which is not the way you close off a trilogy! The concept around this is interesting enough, but as a conclusion to a long running franchise, it could not have been more bafflingly misplaced!"</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"John Carpenter and Debra Hill produced a very quirky and punky horror movie in 1978. It has its flaws but it remains one of the most effective slasher movies ever made.
+
+                        It did not warrant a sequel let alone a franchise all of its own and with each and every sequel comes diminishing returns which comes as no surprise to me since there is no story left to tell.
+                        
+                        Blumhouse are no longer a credible film studio they are simply eking out as much cash as possible and exploiting a gullible fan base who hang to the absurd notion that 'this one will be better than the last'. Dreadful uninspiring nonsense."</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>"Another failed sequel of a classic horror flick. There was no Micheal Myers anywhere for most of the movie! That shouldn't be the final movie of a legendary horror movie character. We focused way too much on side characters, wasting so much time of the movie and taking away screen time from Michael for no reason."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

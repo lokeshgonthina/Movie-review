@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/mbbs.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Munnabhai M.B.B.S</h1>
+                    <p><span class="label">Release Year:</span> 2003</p>
+                    
+                    <p><span class="label">Genre:</span>Comedy, Drama</p>
+                    <p><span class="label">Language:</span>Hindi</p>
+                    <p><span class="label">Director:</span> Rajkumar Hirani</p>
+                    <p><span class="label">Writer:</span>Vidhu Vinod Chopra, Raj Kumar Hirani</p>
+                    <p><span class="label">Cast:</span>Sanjay Dutt, Gracy Singh, Arshad Warsi</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6lCGvu-hwX4?si=1vTCPdXXItTt4ijU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>Munna is a goon who sets out to fulfil his father's dream of becoming a doctor. With some help from his ally, Circuit, he enrols himself in a medical college and drives Dr Asthana up the wall.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 8.1/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 94%</li>
+                    <li><span class="label">Facebook:</span> 8/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"It has been added to my version of the Indian classics.Parinda,Lamhe,1942 A Love Story,Dil Chahta Hai,Kaante,Shool,Satya,and now Munna Bhai M.B.B.S.(Forgive me if I am forgetting some great movies).I myself am a student of medicine and though its so unrealistic and atmosphere and so melodramatic a storyline but for once I don't care if it is.The dialogues have been written by some wizard.It was really good to see V.V.Chopras name in the writing credits.Sanjay Dutt was at his killer best and the rest were there to supplement him.And they supported big time from Arshad Warsi to Boman Irani to Gracy Singh.I Don't know whether I would cry and laugh both the same time ever again in my lifetime."</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"The funniest film of 2003 and perhaps the DECADE. Munna Bhai MBBS is a non-stop laugh riot! Sanjay Dutt gives another mind-blowing performance.
+                        Rajkumar Hirani is the new kid on the Block, but it doesn't show, one of would think he's a veteran filmmaker by the way he has directed his debut venture. Vidhu Vinod Chopra is not know for producing comedies, but his risk has paid off BIG TIME!!!
+                        
+                        The film also stars Sunil Dutt, after a very long gap, but he does full justice to his role, he's in full form and doesn't miss a single beat. Rohini Hattangadi is excellent. Arshad Warsi and Boman Irani simply steal the show. Gracy Singh is Sweet, Sensitive and spellbinding. Jimmy Shergill is excellent in a role that seems tailor made for him.
+                        
+                        Abbas Tyrewalla's Dialogues are superb and are the soul of the film. A definite must see!!!"</p>
+                    <h3>Banwari</h3>
+                    <p>"When I went to watch the movie I was not so sure on how well the director could handle a comedy ( He is not exactly known for that!), BUT 10 minutes into the show and all my doubts were dispelled! This is a superb comedy, and you should watch it for Arshad Warsi's acting, if not anything else."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

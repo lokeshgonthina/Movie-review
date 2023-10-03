@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/f2.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">F2: Fun and Frustration</h1>
+                    <p><span class="label">Release Year:</span> 2019</p>
+                    
+                    <p><span class="label">Genre:</span>Comedy/Romance</p>
+                    <p><span class="label">Language:</span>Telugu</p>
+                    <p><span class="label">Director:</span>Anil Ravipudi</p>
+                    <p><span class="label">Writer:</span>Anil Ravipudi</p>
+                    <p><span class="label">Cast:</span>Daggupati Venkatesh,VarunTej,Tammanna,Mehrin</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XttQbFKkeHQ?si=emWOf1M0aXk_dEuJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>The plot follows two men who try to control their dominating wives after getting married..</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 6.1/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 20%</li>
+                    <li><span class="label">Facebook:</span> 3.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"When it comes to humour, there’s not one kind of it that’ll tickle everyone’s funny bone. Some like it subtle, some slapstick, and then there are those who like it situational, while others prefer roasts. But, there’s also the category who love to laugh their sorrows away with cliché funny message forwards about how difficult marital life really is. That is the category Anil Ravipudi is presumably looking to tap into with this film, which is filled with dialogues that truly do sound like finely tuned forwards.
+                        <br/>Scripted by AnilRavipudi, with lot of fun. "</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Much anticipated movie of 2019."</p>
+                    <h3>Tulasi Praneeth</h3>
+                    <p>"it leads to fun for some section of audience and irritation to youth as the comedy looks forcefull."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/Ramleela.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Goliyon Ki Raasleela Ram-Leela</h1>
+                    <p><span class="label">Release Year:</span> 2013</p>
+                    
+                    <p><span class="label">Genre:</span>Romance, Drama</p>
+                    <p><span class="label">Language:</span>Hindi</p>
+                    <p><span class="label">Director:</span>Sanjay Leela Bhansali</p>
+                    <p><span class="label">Writer:</span>Sanjay Leela Bhansali</p>
+                    <p><span class="label">Cast:</span>Ranveer Singh,Deepika padukone</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/StphRCLkx6Q?si=R5KdCDgmcNsAyYCH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>Based on the tragedy Romeo and Juliet by William Shakespeare, Ram-Leela narrates the star-crossed romance between the two eponymous lovers from two gangster families, who fall in love with each other, but gets separations due to their familys' rivalry since centuries.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 6.4/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 70%</li>
+                    <li><span class="label">Facebook:</span> 7.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"What new can a filmmaker do with William Shakespeare’s classic love-story Romeo and Juliet? The answer is, if you are Sanjay Leela Bhansali, who is technically sound and astute, you just become impudent, set the story in Gujarat, sign Bollywood’s currently best actress Deepika Padukone (Leela), team her up with 'I’ve-got-fire-in-my-loins’ actor Ranveer Singh (Ram) and then let them loose on one another.
+                        <br/>Scripted by Sanjay Leela BAnsali, that much must be expected."</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Much anticipated movie of 2013. The movie gives you a real meaning of love. The main positive part of the film is love.  😘."</p>
+                    <h3>Tulasi Praneeth</h3>
+                    <p>"At two hours and forty minutes, Ram-Leela could get a bit laborious but Bhansali delivers a love story that is enthralling, sparkling and compelling but not self-indulgent like Saawariya (2007)."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

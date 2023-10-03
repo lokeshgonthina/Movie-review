@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/varsham.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Varsham</h1>
+                    <p><span class="label">Release Year:</span> 2004</p>
+                    
+                    <p><span class="label">Genre:</span>Action, Romance, Comedy</p>
+                    <p><span class="label">Language:</span>Telugu</p>
+                    <p><span class="label">Director:</span> Sobhan</p>
+                    <p><span class="label">Writer:</span>Veeru Potla</p>
+                    <p><span class="label">Cast:</span>Prabhas, Trisha, Gopi Chand</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oWUn49GyuPM?si=o10pBAKEBgh-Rg2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>Venkat and Sailaja meet while travelling in a train. But Sailaja's father Ranga Rao wants to marry her off to Bhadranna, who is obsessed with her.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 7.5/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 70%</li>
+                    <li><span class="label">Facebook:</span> 9.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"Amazing movie!!! Never bored me inspite how many times I watch!!❤️❤️❤️❤️❤️"</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"After industry all time blockbuster Okkadu, producer MS.Raju still not coming out of the movie's influence, decided to okkadu part 2 and did Varsham. Most of the scenes, screenplay are similar to okkadu. Songs and technical values are tip notch , Gopichand is the main attraction of the movie."</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>"Superb movie. Best screen play n best story lining I have ever seen.. It is an biggest blockbuster movie in prabhas career n his acting is in peaks n direction is really good .. Gopichand did his best in a villan role hats off to the whole team of varsham ... Dsp did his best n it is also an musical feast movie "</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

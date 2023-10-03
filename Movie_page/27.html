@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/krsh.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">krrish 3</h1>
+                    <p><span class="label">Release Year:</span> 2013</p>
+                    
+                    <p><span class="label">Genre:</span>Sci-fi,Action</p>
+                    <p><span class="label">Language:</span>Hindi</p>
+                    <p><span class="label">Director:</span> Rakesh Roshan</p>
+                    <p><span class="label">Writer:</span>Rakesh Rooshan</p>
+                    <p><span class="label">Cast:</span>Hrithik Roshan,Priyanka Chopra</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_6Ix1VF_yWM?si=zVndF_8xB0golejK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>Krrish and his scientist father must save the world and their own family from an evil man named Kaal and his gang of mutants, led by the ruthless Kaya. Krrish and his scientist father must save the world and their own family from an evil man named Kaal and his gang of mutants, led by the ruthless Kaya..</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 5.3/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 40%</li>
+                    <li><span class="label">Facebook:</span> 3.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>Evil doesn’t raise its ugly head anymore. It raises a finger. But then ‘Good’ flies too. In ‘Superhero’ form - Caped, masked, winged – with muscles of steel and hearts of gold. Our comic-book phirang fantasy boys have flown high as ‘Supermen’ in Hollywood epics for eons. In India, only one man with an audacious flight of imagination - Rakesh Roshan - has thrice-over, superbly crafted a fantastical world ‘alien’ to Bollywood, with our very own amazingly evocative superhero – Krrish (Hrithik).
+                        <br/></p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Krrish 3 is probably the weakest of the trilogy it it still entertains and had me laughing and supporting my favorite characters on screen. I won't do a long winded review as everyone else who reviewed the film seems to have done it already."</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>"One walks into a superhero film wanting to be overwhelmed. Tall order indeed! After all, in how many different ways can a superhero save the world? The template is more the less the same in all superhero films. It is just the treatment that tells a winner from the loser."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

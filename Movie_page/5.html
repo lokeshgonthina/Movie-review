@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/vikram.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Vikram</h1>
+                    <p><span class="label">Release Year:</span> 2022</p>
+                    
+                    <p><span class="label">Genre:</span> Action, Crime, Thriller</p>
+                    <p><span class="label">Language:</span>Tamil</p>
+                    <p><span class="label">Director:</span> Lokesh Kanagaraj</p>
+                    <p><span class="label">Writer:</span>Lokesh Kanagaraj, Ratna Kumar</p>
+                    <p><span class="label">Cast:</span>Kamal Hassan, Fahd Fassil, Vijay Sethupathi</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OKBMCL-frPU?si=SgUuXvyWO-AoXybf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>A special investigator assigned a case of serial killings discovers the case is not what it seems to be, and leading down this path is only going to end in a war between everyone involved.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 8.3/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 56%</li>
+                    <li><span class="label">Facebook:</span> 9/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"An ambitious, but somewhat underwhelming action film"</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"KH is back with a bang in this action movie. The action scenes are raw and chilling. Every character has brilliant characteristics and are used brilliantly to the screenplay. Fahad Fazil has a good emotional part. Do watch if you like raw action movies!!"</p>
+                    <h3>Emmanuel Jose</h3>
+                    <p>"Not Kamal Haasan Not Fahad Fazil Not Vijay Sethupathi Not Surya Lokesh is the Real Hero
+
+                        Utilised the Cast perfectly ... BGM, Theatre Experience was lit 🔥"</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/ttn.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Titanic</h1>
+                    <p><span class="label">Release Year:</span>1997</p>
+                    
+                    <p><span class="label">Genre:</span>Romance, Drama</p>
+                    <p><span class="label">Language:</span>English</p>
+                    <p><span class="label">Director:</span>James Cameron</p>
+                    <p><span class="label">Writer:</span>james Cameron</p>
+                    <p><span class="label">Cast:</span>Leonardo DiCaprio,Kate Winslet</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kVrqfYjkTdQ?si=y28aQLTIPdoW7hqf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>The love story between commoner Jack Dawson ( Leonardo DiCaprio) and aristocratic Rose Dewitt Bukater (Kate Winslet), set against the ornate yet tragic backdrop of the sinking luxury liner, sends out all the right signals. It talks of a love that is passionate, permanent, soul stirring, death defying and powerful enough to break all barriers of class and destiny.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 7.9/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 88%</li>
+                    <li><span class="label">Facebook:</span> 7.5/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"No doubt Cameron is mastering the art of advancing technology, not just in the world of cinema, but his very own cinema. First Avatar (followed by Avatar 3D), now Titanic.
+                        <br/></p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Ah, yes, the film that propelled Leonardi DiCapro to super stardom, became the first film to gross $1 billion, and stayed on the top of the box office charts for 12 years (only to be kicked off the top by another James Cameron film, Avatar).
+
+                      It is said 'Titanic' is the film with the most continuity errors of all films. Despite this, though, the film was indeed a masterpiece. The sheer scale of the sets and entire production were simply mind blowing! The sinking of the Titanic was the greatest ship sinking scene EVER and was done with such meticulous detail that one would think they actually really sunk the ship. Off course, that was not the case, though, as it were all (very elaborate) sets, most of which were destroyed during the making of the film.
+                      
+                      Leonardo made for a very likable hero, quite frankly one a lot of guys can relate to. The young lovers were so different and yet so alike, and their love story was almost endearing. I must admit, the jumping backwards and forwards in time was a bit unnecessary and resulted in an overlong epic. They should only have told the 1912 story. Apart from that, the film was thrilling, exciting and fascinating in every sense of the word!
+                      ."</p>
+                    <h3>Roger Ebert</h3>
+                    <p>"Roger Ebert's review of James Cameron's Titanic, a film of the tragic voyage of the unsinkable ship and the love story of a young woman and a steerage boy. He praises the film's craftsmanship, acting, and drama, and compares it to the real Titanic's history and legacy."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

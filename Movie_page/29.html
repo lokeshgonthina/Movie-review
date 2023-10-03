@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/24.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">24</h1>
+                    <p><span class="label">Release Year:</span> 2003</p>
+                    
+                    <p><span class="label">Genre:</span>Sci-fi,Action</p>
+                    <p><span class="label">Language:</span>Telugu</p>
+                    <p><span class="label">Director:</span>Vikram kumar</p>
+                    <p><span class="label">Writer:</span>Vikram kumar</p>
+                    <p><span class="label">Cast:</span>Suriya,Samantha,Nitya Menon</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/X2eQqOAiEok?si=mOJkvJp6zVrCjT8L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>Sethuraman (Suriya) is a scientist who creates a watch (project 24) which can be used to time travel , then his evil brother Athreya tries to get the watch from him but instead due to an accident he goes into coma before which he kills Sethuraman and his wife Nithya .</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 7.5/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 40%</li>
+                    <li><span class="label">Facebook:</span> 3.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"A lot of the events in 24 happen mainly on account of accidents and coincidences, but it is to Vikram Kumar’s credit that we buy into those scenes so willfully in this novel and entertaining, but definitely over-long, film that constantly charms us or leaves us thrilled with its inventiveness. The film begins with one such accident when an eagle acts a catalyst for Dr Sethuraman’s (Suriya) invention — a time machine. He is a famed watchmaker and inventor, living contentedly with his wife Priya (Nithya Menen) and their son. But his look-alike twin brother Athreya is smarting at his success and plans to have the time machine, which is in the form of a watch, for himself. But Sethuraman manages to save both his son and his invention by giving up his own life.
+                        <br/></p>
+                    <h3>IMDb Featured review</h3>
+                    <p>".A must watch movie for those who love Sci-Fi and Thriller. Credits goes to the Actor Suriya and the Director Vikram K Kumar they have done excellent Job. Vikram's (Director) Experiment '24' reached successfully to the audience."</p>
+                    <h3>Baradwaj Ranjan</h3>
+                    <p>"In his review for The Hindu, critic Baradwaj Rangan called 24 an "intelligent, joyous mix of sci-fi and masala-myth."[35] Sreedhar Pillai in his review for Firstpost mentioned, "24 is a classy commercial entertainer, which has its moments."[36] Malini Mannath of The New Indian Express wrote, "Attractively packaged, 24 is refreshing, novel and worth a watch."[37] M. Suganth of The Times of India, assigned 4 out of 5 stars, stating: "It is not often that we see a big star choosing to take a risk with a script that is not simplistic or formulaic, especially when his last few films have underperformed at the box office, but here Suriya pulls it off admirably."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

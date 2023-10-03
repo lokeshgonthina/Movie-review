@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/kanchana.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Kanchana</h1>
+                    <p><span class="label">Release Year:</span> 2011</p>
+                    
+                    <p><span class="label">Genre:</span>Comedy,Horror</p>
+                    <p><span class="label">Language:</span>Telugu</p>
+                    <p><span class="label">Director:</span> Raghava Lawrence</p>
+                    <p><span class="label">Writer:</span>Raghava Lawrence</p>
+                    <p><span class="label">Cast:</span>Raghava Lawrence,Raai Laxmi,Kovai Sarala</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-16MdQ9Blgk?si=CfD6eAGeweAhC9k7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>The film revolves around Raghava, who is scared to venture outside gets possessed by a ghost and starts behaving weirdly. The film's cinematography and editing was handled by Vetri and Kishore Te, respectively. The film's soundtrack was composed by S. Thaman. The film's distribution rights were bought by Sri Thenandal Films.The Central Board Of Film Certification (CBFC) gave the film an "A" Certificate for "Violence" and "Horror".</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 8.5/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 70%</li>
+                    <li><span class="label">Facebook:</span> 7.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"Kanchana, the sequel of the masala film (with a touch of horror), Muni, isn't very different from its prequel. As if using the same Kollywood masala formula wasn't bad enough, Kanchana sticks to an already existing template. The result is a fairly entertaining horror-comedy with the comic aspect, by far, eclipsing the so-called horror aspect.
+                        <br/></p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Choreographer-actor-director Raghava Lawrence’s “Kanchana” is a sequel to his earlier film “Muni”. Though the film is supposed to be a horror one, it succeeds to scare only in bits. For most part, the characters are loud, dramatic and over emotive."</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>"Raghava (Lawrence) is a happy go lucky guy, who lives with his mother (Kovai Sarala) and his brother’s family. He fights and dances, but has just one weakness — he is afraid of the dark and ghosts, after sunset. Once, after a game of cricket with friends, he comes home to see that the cricket stumps have blood stains on them. From then, strange things happen in his house. Raghava begins to behave unusually, like a woman.."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

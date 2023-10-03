@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/interstellar.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Interstellar</h1>
+                    <p><span class="label">Release Year:</span> 2014</p>
+                    
+                    <p><span class="label">Genre:</span>Sci-fi,Adventure</p>
+                    <p><span class="label">Language:</span>English</p>
+                    <p><span class="label">Director:</span>Christopher Nolan</p>
+                    <p><span class="label">Writer:</span>Christopher Nolan,Jonathon Nolan</p>
+                    <p><span class="label">Cast:</span>Matthew McConaughey,Anne Hathawa</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E?si=UaBsr4TJozrItsUJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>Interstellar is a 2014 epic science fiction film co-written, directed, and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, Matt Damon, and Michael Caine. Set in a dystopian future where humanity is embroiled in a catastrophic blight and famine, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for humankind..</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 8.7/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 88%</li>
+                    <li><span class="label">Facebook:</span> 7.5/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"Cooper (McConaughey) is a former pilot who dreams of soaring in the skies again. Unfortunately, Cooper needs to have his feet firmly on terra firma to take care of farm and family. His father-in-law (Lithgow) repeatedly reminds him about that. Cooper's daughter Murph (Foy) however is as bright a spark - and as passionate about what she believes in - as her father is. Murph is also imaginative; she attributes randomly-moving objects and books in her room to poltergeist activity. But her dad reminds her that "there are no ghosts".
+                        <br/>"</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"The film is considered to be one of the most scientifically accurate films of this kind to ever be put on screen. That doesn't happen by accident. Nolan went out of his way to present and make the science in Interstellar as real as possible</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>"The movies’ love affair with space exploration is almost as old as the movies themselves, reaching all the way back to A Trip To The Moon with that iconic image of a rocket planting itself in the eye of the man in the moon way, waaay back in 1902. For most of the next decades, outer space became a backdrop for flights of fancy, from the classic 1930’s “Flash Gordon” kiddie matinee serials through the “Star Wars” and “Star Trek” franchises (with this Summer’s mega hit Guardians Of The Galaxy igniting another series). It wasn’t until 1968’s 2001: A Space Odyssey that film makers really began grounding space flight flicks in a more scientific reality, much like last year’s Gravity, while The Right Stuff and Apollo 13 looked back on the history of manned space missions"</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

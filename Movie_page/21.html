@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/ashq2.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Aashiqui 2</h1>
+                    <p><span class="label">Release Year:</span> 2013</p>
+                    
+                    <p><span class="label">Genre:</span>Romance/Musical</p>
+                    <p><span class="label">Language:</span>Hindi</p>
+                    <p><span class="label">Director:</span>Mohit Suri</p>
+                    <p><span class="label">Writer:</span>Shagufta Rafique</p>
+                    <p><span class="label">Cast:</span>Aditya Roy Kapur,Shraddha Kapoor</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FyXXgpPqe6w?si=Tn5GkJoQ10HZPbQm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>Rahul, a singing sensation, falls in love with Aarohi, a girl who sings in the bar. He helps her accomplish her dream of becoming a famous singer, but his own shortcomings jeopardize their future.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 7/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 60%</li>
+                    <li><span class="label">Facebook:</span> 7.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"He sings. She sings. He, for his stardom. She, for her supper. And the twain meet. In a restrobar, where she croons and he swoons. And Aashiqui is born. Again! Retelling the celebrity story that stardom ain’t an easy ride. It sometimes vrooms and then goes sputter, the fuel of celebdom often running out. Like Rahul Jaykar (Aditya) discovers; once basking in a ‘rockstar’ like status, but soon losing it to alcohol, addiction and self-deprecation. But when he meets budding singer Aarohi (Shraddha), his heart finds a new beat and his crumbling life finds a cause. He trains her to become the Nightingale of India; she shines while he stays her shadow; sometimes sober, mostly stoned. The real lyric of this story is their romance, pulsating with passion and intensity – on high notes and ‘higher spirits’.
+                        <br/>Scripted by Shagufta RAfique,an emotional love ride"</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"While the actress won hearts with her cuteness and innocence as Aarohi in the film, she totally ruled over the hearts of millions. The audience witnessed the amazing chemistry between Shraddha and Aditya Roy Kapoor in the film."</p>
+                    <h3>Tulasi Praneeth</h3>
+                    <p>"On the whole, AASHIQUI 2 brings romance back on the Hindi screen -- intense, pure, selfless and heart wrenching. A stirring account with brilliant moments, bravura performances, strong emotional quotient and addictive music, this one's an absolute must watch for the romantics."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

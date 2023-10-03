@@ -1,0 +1,150 @@
+@font-face {
+    font-family: customf;
+    src: url(Font13.ttf);
+}
+.movie-info {
+    background-color: rgb(203, 231, 246);
+    display: flex;
+    align-items: flex-start;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.movie-details {
+    background-color: #b8debb;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-color: #000000;
+}
+
+.movie-poster {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+    flex: 1;
+}
+
+.movie-title {
+    font-family: 'customf';
+    font-size: 60px;
+    margin: 0 0 10px;
+    color: hsl(0, 0%, 0%);
+}
+
+.label {
+    font-weight: bold;
+    color: #555;
+}
+
+.description {
+    margin-top: 0px;
+    color: #666;
+    background-color: rgb(249, 241, 193);
+}
+
+.ratings {
+    margin-top: 20px;
+    color: #555;
+}
+
+.reviews {
+    margin-top: 20px;
+    font-style: normal;
+    color: #555;
+}
+
+.review {
+    margin-bottom: 20px;
+    
+}
+
+.review h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    font-style: normal;
+    color: #333;
+}
+.review>p{
+    font-family: 'Satisfy', cursive;
+    font-size: 18px;
+    background-color: whitesmoke;
+}
+
+.trailer {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+.play-icon:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .movie-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .movie-poster {
+        margin-bottom: 20px;
+    }
+
+    .trailer {
+        padding: 15px;
+    }
+}
+
+h3{
+    font-style: normal;
+    font-weight: bolder;
+}
+.description>p{
+    font-family: 'Gabarito', cursive;
+    font-size: large;
+    border-top: 1px;
+}
+.description>h2{
+    font-size:25px;
+    color:#1b1b1b;
+    font-family: 'Martian Mono', monospace;
+    
+}
+.details>p{
+    font-family: 'Martian Mono', monospace;
+    font-weight: 100;
+    color: #262525;
+    font-size: larger;
+}
+.details > span{
+    font-family: 'Lora', serif;
+    color: #000000;
+}
+.label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color:#000000;
+    font-weight: 700;
+}

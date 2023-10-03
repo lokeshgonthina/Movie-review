@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/frk.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Fukrey Returns</h1>
+                    <p><span class="label">Release Year:</span> 2017</p>
+                    
+                    <p><span class="label">Genre:</span>Comedy</p>
+                    <p><span class="label">Language:</span>Hindi</p>
+                    <p><span class="label">Director:</span>Mrighdeep Lamba</p>
+                    <p><span class="label">Writer:</span>Vipul Vig,Mrighdeep Lamba</p>
+                    <p><span class="label">Cast:</span>Pulkit Samrat, Varun Sharma</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/f-UzOpuKOVY?si=r9UxM51XeWL3s3Zi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>Just out of jail, a don is ready to get back at the four friends who conned her.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 7.5/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 40%</li>
+                    <li><span class="label">Facebook:</span> 3.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"A fun filled second installment of the sleeper 2013 hit 'Fukrey', this film will crack you up for sure."</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"I can say you will not be disappointed after watching this movie. It's a good one time watch. Varun Sharma aced his performance and man Richa Chadda is hot. Overall it's a good watch. There are some good comedy dialogues in this movie, you can relate a lot with Choocha's character. The story was not that good but all the comedy sure made it look good. Other casts were also good."</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>" Fukrey Returns is one super-entertaining movie. Retaining the magic of the first part, this easily is one of the best comedies of the year."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

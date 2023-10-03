@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/lucifer.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Lucifer</h1>
+                    <p><span class="label">Release Year:</span> 2019</p>
+                    
+                    <p><span class="label">Genre:</span> Action, Crime, Drama</p>
+                    <p><span class="label">Language:</span>Malayalam</p>
+                    <p><span class="label">Director:</span> Prithviraj Sukumaran</p>
+                    <p><span class="label">Writer:</span>Murali Gopy</p>
+                    <p><span class="label">Cast:</span>Mohanlal,Vivek Oberoi,Manju Warrier</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/x1-Ya0NZQso?si=aLLKLT7ExCXYtw0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>A political Godfather dies and a lot of thieves dressed up as politicians took over the rule. Question arises regarding the successor of the God, unfolding few names, along with the God's most beloved angel, Lucifer.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 7.5/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 40%</li>
+                    <li><span class="label">Facebook:</span> 3.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"Better to reign in hell than serve in heaven, wrote John Milton in Paradise Lost. The same quote is played in the end credits of actor-turned-filmmaker Prithviraj's directorial debut Lucifer. In a way, it's only fitting for a movie that evolves against the backdrop of politics and has taken a few references from contemporary socio-political scenario.
+                        <br/>Scripted by Murali Gopy, that much must be expected. However, for most parts, the movie is a massive shift from previous Murali Gopy films with lofty concepts or ideas, with director Prithviraj banking on some tried-and-tested formula to present a straightforward film that has both style and substance"</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Much anticipated movie of 2019. The movie gives you a real mass entertainer having some good content. The main positive part of the film is that it is directed by a fan boy. That's why he has used mohanlal in the way the fans wanted to see. The direction visuals making acting all makes you feel excellent. The real don esthappan is on an action 😘."</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>"Lucifer is an extremely packed action drama movie.... Prithviraj Directional debut were excellent and the introduction of each are every characters were well organized....Mohanlal with lead roll were outstanding and his actions as well as his dialogue deliveries were so effective and Vivek oberoi as a negative character in lucifer were also outstanding..... Mohanlal and Prithviraj combo was excellently showcased...as i write in my reviews believe in Prithviraj movies... Lucifer is a watchable movie...this film worth your money..."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

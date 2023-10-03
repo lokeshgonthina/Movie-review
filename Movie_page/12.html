@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/robo.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Enthiran</h1>
+                    <p><span class="label">Release Year:</span> 2010</p>
+                    
+                    <p><span class="label">Genre:</span>Action, Sci-Fi, Thriller</p>
+                    <p><span class="label">Language:</span>Tamil</p>
+                    <p><span class="label">Director:</span>S.Shankar</p>
+                    <p><span class="label">Writer:</span>Shankar, Sujatha</p>
+                    <p><span class="label">Cast:</span>Rajinikanth, Aishwarya Rai</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sY_F6issHsU?si=1o-OCVQduuobdKmq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>A brilliant scientist creates a humanoid robot to protect mankind, but things go awry when human emotions are programmed and inner turmoil causes the robot to switch sides.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 8.5/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 80%</li>
+                    <li><span class="label">Facebook:</span> 9.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"A slender story treated well, minimal dialogues laced with humour, and a huge dose of special effects."</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Enthiran will keep u by your seats till the end.The movie plot is decent and the superb directing by Shankar along with our superstar Rajini's acting makes this a masterpiece.....
+
+                        I saw this movie on first day at pondicherry and i never seen a crowd like this before.
+                        "</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>"Director Shankar delivers. A slender story treated well, minimal dialogues laced with humour, and a huge dose of special effects. You can take the post-interval session as a spoof or as a testament to the fact that the director knows what special effects to demand from the world-class technicians of Hollywood who were involved in the making of the film."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

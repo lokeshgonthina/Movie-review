@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/Sita-ramam1.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Sita Ramam</h1>
+                    <p><span class="label">Release Year:</span> 2022</p>
+                    
+                    <p><span class="label">Genre:</span>Action, Mystery, Drama</p>
+                    <p><span class="label">Language:</span>Telugu</p>
+                    <p><span class="label">Director:</span> Hanu Raghavapudi</p>
+                    <p><span class="label">Writer:</span>Hanu Raghavapudi, Jay Krishna</p>
+                    <p><span class="label">Cast:</span>Dulqer Salman, Mrunal Thakur</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ljk6tGZ1l3A?si=YJJH5Um0y9bijhvy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>An orphan soldier, Lieutenant Ram's life changes, after he gets a letter from a girl named Sita. He meets her and love blossoms between them. When he comes back to his camp in Kashmir,After he gets caught in jail, he sends a letter to Sita which won't reach her.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 8.6/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 91%</li>
+                    <li><span class="label">Facebook:</span> 8.4/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"Dulquer and Mrunal breathe life into their characters, something that's needed for a story like this to work"</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Director Hanu has proved his brilliance of work one more time. He crafted a beautiful love story connecting all the elements of story with a good suspense. The movie is clean and watchable for all ages. Its very rare we get such beautiful films. Kudos to all the team for making such a simple but awesome movie."</p>
+                    <h3>Krishna Prasad</h3>
+                    <p>"Clearly a masterpiece. Loved every bit of the film.
+
+                        Music, Direction, Screenplay, Cinematography, Art, Cast, Visuals...just everything was great.
+                        
+                        Dulquer and Mrunal as Ram and Sita are at their best forms. Will be remembered forever.
+                        
+                        Dont miss it on theatres. Its a family must watch. A clean and poetic romantic drama. Just go for it!"</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

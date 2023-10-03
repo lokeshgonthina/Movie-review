@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/idiots.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Three Idiots</h1>
+                    <p><span class="label">Release Year:</span> 2009</p>
+                    
+                    <p><span class="label">Genre:</span>Comedy, Romance</p>
+                    <p><span class="label">Language:</span>Hindi</p>
+                    <p><span class="label">Director:</span> Rajkumar Hirani</p>
+                    <p><span class="label">Writer:</span>Vidhu Vinod Chopra, Raj Kumar Hirani</p>
+                    <p><span class="label">Cast:</span>Aamir Khan,Aamir Khan,FeedbackSharman Joshi,Kareena kapoor</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xvszmNXdM4w?si=vpaTrv5ofY-u3sfN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them "idiots".</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 8.4/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 40%</li>
+                    <li><span class="label">Facebook:</span> 7.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"Madhavan has an easy screen presence and perfectly complements his costars for amazing companion chemistry. Kareena Kapoor may have less screen-time but this is amongst one of her most appealing acts. And that is beyond her gorgeous looks. Boman Irani is exceptionally good as the principal.
+                        <br/></p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Rest assured, all ye desi cinema buffs, Aal Izz Well in apna Bollywood. If 2009 can begin with Dev D and end with 3 Idiots, it is indeed time to sound the seetis and taalis for one of the most exciting years of contemporary Indian cinema. Truly, this has been the year of the I.d.i.o.t in movielore: the Intrinsically intelligent, Downright smart, Inimitable, Original and Talented film maker, actor, story teller, musician, lyricist, dialogue writer and producer.</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>"3 Idiots is the perfect end to an exciting year for India: the year when the aam aadmi voted in progress, liberalism, secularism and turned his back to corruption, communalism, regionalism. The three idiots, Rancchoddas Shyamaldas Chanchad (Aamir Khan), Raju Rastogi (Sharman Joshi) and Farhan Qureshi (R Madhavan), are perfect archetypes of the new age Indian who is essentially a non-conformist, questioning outmoded givens, choosing to live life on his own terms and chartering new roads that consciously skirt the rat race. Of course, they begin on the beaten track -- due to societal/parental pressure -- but refuse to become cogs in the wheel. Naturally, they end up as the Frostian hero (Robert Frost's Road Not Taken) who made all the difference to his life, and the world, by taking the road less travelled by."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

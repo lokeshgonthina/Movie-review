@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/bb2.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Baahubali 2:The Conclusion</h1>
+                    <p><span class="label">Release Year:</span> 2017</p>
+                    
+                    <p><span class="label">Genre:</span>Action, Drama</p>
+                    <p><span class="label">Language:</span>Telugu</p>
+                    <p><span class="label">Director:</span> S.S.Rajamouli</p>
+                    <p><span class="label">Writer:</span>K.Vijayendra Prasad, S.S.Rajamouli</p>
+                    <p><span class="label">Cast:</span>Prabhas, Rana Daggubati, Anushka Shetty</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qD-6d8Wo3do?si=COYoyrsfXDjeUMN2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>Amarendra Baahubali, the heir apparent to the throne of Mahishmati, finds his life and relationships endangered as his adoptive brother Bhallaladeva conspires to claim the throne.</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 8.2/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 88%</li>
+                    <li><span class="label">Facebook:</span> 6.9/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"Don’t judge Baahubali. Just savour it. It is a visual extravaganza that India must feast on."</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"Baahubali 2: The Conclusion is not quite as good as its predecessor with a somewhat weak storyline, but the film is visually dazzling to behold with great costumes, interiors and phenomenal set pieces and special effects. Colorful and exciting, it is also exhilarating, though silly in its action and it thus succeeds as a pretty good conclusion to this story. But above all else, both of these films are very enjoyable as they are incredibly epic in scope and world building and in that aspect are much better than most American blockbusters."</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>"It's a nearly perfect film ! It has some bad/cringe moments, cheap special effects but these things can't take u away from good parts. The director has a vision ( the thing that lacks in most Indian filmmakers) and he executed it perfectly! During the first quarter the film can be boring to some people , they stretched here a little bit as bahubali goes to find his love. There're plenty of crazy action sequences as bahubali jumps from one bull to another, these things can make u laugh( climax wall jump too). there are plenty to dramatic, emotionally impactful, goosebumps inducing moments that will keep u there. That final fight between the two is well choreographed, shot and the CONCLUSION is satisfying!"</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

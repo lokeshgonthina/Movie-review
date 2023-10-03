@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-info">
+                <img src="../images/nvnv.jpg" alt="Movie Poster" class="movie-poster">
+                
+                <div class="details">
+                    <h1 class="movie-title">Nuvvostanante Nenoddantana</h1>
+                    <p><span class="label">Release Year:</span> 2005</p>
+                    
+                    <p><span class="label">Genre:</span>Romance,Comedy</p>
+                    <p><span class="label">Language:</span>Telugu</p>
+                    <p><span class="label">Director:</span>Prabhu Deva</p>
+                    <p><span class="label">Writer:</span>Veeru Potla</p>
+                    <p><span class="label">Cast:</span>
+                      Siddharth,trisha,Srihari,Sivaramakrishna</p>
+                    
+                </div>
+            </div>
+            <div class="trailer">
+                <h2>Trailer</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DHU8Rtg7JG4?si=qwFRn0SmuOJQEs54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="play-icon"></div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>Before he can marry his sweetheart, a wealthy city boy from England is challenged to prove his work ethic on a farm in rural India</p>
+            </div>
+            <div class="ratings">
+                <h2>Ratings</h2>
+                <ul>
+                    <li><span class="label">IMDb:</span> 8.2/10</li>
+                    <li><span class="label">Rotten Tomatoes:</span> 60%</li>
+                    <li><span class="label">Facebook:</span> 7.1/10</li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Times of India</h3>
+                    <p>"Touted by many as the golden days of ‘Siddharth Narayan’s career, he kick-started with the highly acclaimed film ‘Nuvvostanante Nenoddantana’. In this romantic film, he essayed the role of a rich kid from abroad. It follows his journey of how he went on to win his love. His portrayal of Santosh and his romance with Trisha helped the film become a blockbuster. Siddharth was awarded Filmfare Award South for his knockout performance.
+                        <br/>"</p>
+                    <h3>IMDb Featured review</h3>
+                    <p>"First half of the film is excellent with great entertainment and emotions. The second half is set more on emotions and less on entertainment. Second half is good. Plus points of the film are great characterizations, neat screenplay, good direction, excellent music, extraordinary photography, superb comedy (Sunil, Dharmavarapu, JP etc) and perfect casting. There are no negative points in the film except that the second half has gone a bit slow. Whenever I watch a film, I look out for the feel and emotions and this film has got plenty of it. I recommend this film to all Telugu film lovers. On the box office front, this film should have excellent run in urban areas and decent run in rural areas. "</p>
+                    <h3>Melvin Solomon</h3>
+                    <p>"The sets and locations chosen are excellent. Editing work by KV Krishna Reddy is crisp. Fights by Vijayan are good. Producer MS Raju should be commended for making yet another good film with right production values and for depending more on script that is well supported by good technical team."</p>
+                </div>
+                <!-- More reviews can be added here -->
+                <h2>Write Your Review</h2>
+                <form id="review-form">
+                    <label for="user-name">Your Name:</label>
+                    <input type="text" id="user-name" name="user-name" required><br>
+                    <label for="user-review">Your Review:</label><br>
+                    <textarea id="user-review" name="user-review" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Submit Review">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
